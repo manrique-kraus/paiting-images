@@ -1,0 +1,45 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paitings {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paitings .paiting {
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+}
+
+.paitings .paiting img {
+    width: 100%;
+}
+
+.paitings .paiting .infos {
+    position: absolute;
+    color: #ffffff;
+    bottom: 4rem;
+    left: 2rem;
+}
+
+.paitings .paiting .infos .title {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+.paitings .paiting .infos .subtitle {
+    font-size: 1.7rem;
+    font-weight: 300;
+}

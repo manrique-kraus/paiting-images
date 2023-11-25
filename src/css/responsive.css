@@ -1,0 +1,9 @@
+@media (max-width: 1230px) {
+
+.paitings {
+    max-width: 900px;
+    margin: 2rem 0;
+    gap: 0;
+}
+
+}
